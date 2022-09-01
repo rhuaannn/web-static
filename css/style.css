@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.center {
+    max-width: 1100px;
+    padding: 0 2%;
+    display: flex;
+    margin: 0 auto;
+}
+
+header {
+    background-color: (0, 0, 0, 0.6);
+    height: 80px;
+}
+
+.logo {
+    color: #ec4141;
+    margin-top: 25px;
+
+}
+
+.menu-container {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.menu-container a.active-menu {
+    background-color: #ec4141;
+
+}
+
+.menu-container a{
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 80px;
+    transition: 0.8s;
+}
+
+.menu-container a:hover {
+    color: #ec4141;
+
+}
+.main{
+    min-height: 800px;
+    background-image: url(../img/logo.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+.text-chamada{
+    color: white;
+    position:absolute;
+    bottom: 200px;
+    left: 200px;
+}
+.text-chamada h1{
+    font-size: 70px;
+}
+.text-chamada h2{
+    font-size: 20px;
+}
+.produtos{
+    background-color: #ec4141;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+.produto.single h4{
+    text-align:center ;
+    background-color: #ec4141;
+    border: 1px solid white;
+    padding: 8px;
+}
+.produto.single p{
+    background-color: aliceblue;
+    padding: 8px;
+    color: black;
+
+}
+.produto.single{
+    text-align: left;
+}
+.produto-container{
+    width: 100%;
+    justify-content: space-around;
+}
+.produto.single{
+    width: 100%;
+    margin: 0 15px;
+}
+.produto.single img{
+    
+    max-width: 10px;
+    min-height: 10px;
+    
+}
+.row{
+    background-color: #ec4141;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+   
+  .card p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
+   
+  .image {
+    float: right;
+    max-width: 300px;
+    max-height: 300px;
+  }
+  
+  .blue {
+    border-left: 3px solid #4895ff;
+  }
+   
+  .green {
+    border-left: 3px solid #3bb54a;
+  }
+   
+  .red {
+    border-left: 3px solid #05110d;
+  }
+  footer{
+    background-color: black;
+    text-align: center;
+  }
+  footer p{
+    color: aliceblue;
+    margin: 0;
+    font-size: 16px;
+  }
+  @media screen {
+    
+  }
